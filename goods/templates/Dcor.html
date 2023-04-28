@@ -86,7 +86,7 @@
 					  <p style="line-height: 1em;">Rank</p>
                         <p>{{row.rank}}</p>
                       <p style="line-height: 1em;">Name</p>
-                      <p>{{row.name }}</p>
+                      <p<a href="{% url 'display_HomeDecorDetail' name=row.name %}">{{row.name}}</a></p>
 						<p style="line-height: 1em;">Ratings</p>
                         <p>{{row.ratings}}</p>
 						  <p style="line-height: 1em;">Price</p>
